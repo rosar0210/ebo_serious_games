@@ -40,6 +40,9 @@ scripts["therapistPanel"]="therapistPanel.py"
 rutas["encuesta"]="$BASE_DIR/encuesta"
 scripts["encuesta"]="encuesta.py"
 
+rutas["mirror"]="$BASE_DIR/mirror"
+scripts["mirror"]="mirror.py"
+
 # Función mejorada
 function abrir_pestana {
     local ruta="$1"
@@ -47,8 +50,8 @@ function abrir_pestana {
     local script="$3"
     local subcarpeta="src"
 
-    # Si es el Panel o la App de Juegos, usamos 'generated'
-    if [[ "$nombre" == "therapistPanel" || "$nombre" == "APP_JUEGOS" || "$nombre" == "encuesta" ]]; then
+    # Si son componentes recientes, usamos 'generated'
+    if [[ "$nombre" == "therapistPanel" || "$nombre" == "APP_JUEGOS" ||"$nombre" == "mirror" ||"$nombre" == "encuesta" ]]; then
         subcarpeta="generated"
     fi
 
@@ -65,4 +68,5 @@ function abrir_pestana {
 # Iterar sobre las rutas
 for nombre in "${!rutas[@]}"; do
     abrir_pestana "${rutas[$nombre]}" "$nombre" "${scripts[$nombre]}"
+    sleep 0.00001
 done

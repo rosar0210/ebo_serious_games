@@ -162,7 +162,7 @@ class SpecificWorker(GenericWorker):
         """ Captura el cierre de la ventana principal """
         if event.type() == QtCore.QEvent.Close:
             if obj == self.ui:
-                self.ui.hide()
+                event.ignore()
             self.finalizar_y_guardar()
             return True
 
@@ -185,10 +185,8 @@ class SpecificWorker(GenericWorker):
             self.guardarSesionFinal()
 
             # Cerramos la aplicación
-            self.ui.removeEventFilter(self)
-            self.registrosesion = []  # Limpiamos la lista para la próxima vez
+            self.registrosesion = []  #Limpiamos la lista para la próxima vez
             self.ui.hide()
-            # QtCore.QTimer.singleShot(0, QApplication.instance().quit)
 
             try:
                 if self.gestorsg_proxy:
@@ -209,9 +207,6 @@ class SpecificWorker(GenericWorker):
             self.registrosesion = []
             self.sesion_actual = None
             self.ui.hide()
-
-            # Limpiamos la lista para la próxima vez
-            # QtCore.QTimer.singleShot(0, QApplication.instance().quit)
 
 
     def guardarSesionFinal(self):
@@ -241,7 +236,7 @@ class SpecificWorker(GenericWorker):
 
             console.print(f"[bold green]✅ Archivo final de residencia guardado: {path_final}[/bold green]")
 
-            # 2. Si el guardado fue bien, borramos el backup para empezar limpios la próxima vez
+            # Si el guardado fue bien, borramos el backup para empezar limpios la próxima vez
             if os.path.exists(self.backup_path):
                 os.remove(self.backup_path)
                 console.print("[blue]🧹 Backup temporal eliminado con éxito.[/blue]")
@@ -501,7 +496,7 @@ class SpecificWorker(GenericWorker):
             # Llamamos a la función que pide el centro y guarda
             self.solicitar_residencia_y_guardar()
         else:
-            # Si el usuario dice que no, no hacemos nada
+
             pass
 
     @Slot()
@@ -565,7 +560,7 @@ class SpecificWorker(GenericWorker):
         ui_obj = getattr(self, ui_nombre, None)
         if ui_obj:
             ui_obj.removeEventFilter(self)  # Desactiva el event filter
-            ui_obj.close()  # Cierra la ventana
+            ui_obj.hide()  # Cierra la ventana
             ui_obj.installEventFilter(self)  # Reactiva el event filter
         else:
             print(f"Error: {ui_nombre} no existe en la instancia.")

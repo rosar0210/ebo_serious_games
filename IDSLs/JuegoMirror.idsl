@@ -1,0 +1,5 @@
+module RoboCompJuegoMirror{
+	interface JuegoMirror{
+		void StartGame();
+  };
+};

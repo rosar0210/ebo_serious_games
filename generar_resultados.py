@@ -15,7 +15,8 @@ possible_paths = {
     ],
     "EBO2": [
         "../../EBO2/pasapalabra/resultados_pasapalabra.json",
-        "../../EBO2/simonSay/resultados_juego.json"
+        "../../EBO2/simonSay/resultados_juego.json",
+        "../../EBO2/mirror/resultados_mirror.json"
     ]
 }
 
@@ -63,6 +64,8 @@ for subfolder, paths in possible_paths.items():
                     base_csv_name = "resultados_pasapalabra"
                 elif "resultados_juego" in json_file:
                     base_csv_name = "resultados_juego_simon"
+                elif "resultados_mirror" in json_file:
+                    base_csv_name = "resultados_juego_mimica"
                 else:
                     # Si no coincide con ninguno, no lo procesamos
                     continue

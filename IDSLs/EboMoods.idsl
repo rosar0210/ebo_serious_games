@@ -1,0 +1,13 @@
+module RoboCompEboMoods
+{
+  interface EboMoods
+  {
+    void expressJoy();
+    void expressSadness();
+    void expressFear();
+    void expressSurprise();
+    void expressAnger();
+    void expressDisgust();
+  };
+};
+

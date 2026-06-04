@@ -130,6 +130,7 @@ class SpecificWorker(GenericWorker):
         ui.ip_button.clicked.connect(self.configurar_ip)
         ui.therapist_button.clicked.connect(self.therapist_clicked)
         ui.encuesta_button.clicked.connect(self.encuesta_clicked)
+        ui.mimica_button.clicked.connect(self.mimica_clicked)
 
         ui.ayuda.hide()
         ui.ayuda_button.clicked.connect(self.ayuda_clicked)
@@ -223,6 +224,10 @@ class SpecificWorker(GenericWorker):
 
     def encuesta_clicked(self):
         self._launch_game("encuesta_proxy")
+
+    def mimica_clicked(self):
+        self.gameName = "Mímica"
+        self._launch_game("juegomirror_proxy")
 
     def ayuda_clicked(self):
         if self.ui.ayuda.isVisible():  # Verifica si está visible
@@ -370,6 +375,10 @@ class SpecificWorker(GenericWorker):
     ######################
     # From the RoboCompEncuesta you can call this methods:
     # RoboCompEncuesta.void self.encuesta_proxy.StartSurvey()
+
+    ######################
+    # From the RoboCompJuegoMirror you can call this methods:
+    # RoboCompJuegoMirror.void self.juegomirror_proxy.StartGame()
 
     ######################
     # From the RoboCompJuegoSimonSay you can call this methods:

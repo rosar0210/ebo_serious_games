@@ -4,13 +4,14 @@ import "Pasapalabra.idsl";
 import "StoryTelling.idsl";
 import "TherapistPanel.idsl";
 import "Encuesta.idsl";
+import "JuegoMirror.idsl";
 
 Component app_juegos
 {
     Communications
     {
         implements GestorSG;
-        requires JuegoSimonSay, Pasapalabra, StoryTelling, TherapistPanel, Encuesta;
+        requires JuegoSimonSay, Pasapalabra, StoryTelling, TherapistPanel, Encuesta, JuegoMirror;
     };
     language python;
     gui Qt(QWidget);
