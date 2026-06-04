@@ -19,4 +19,4 @@ __pycache__/
 # Excluir módulos específicos por ahora
 mimica/
 rec_facial/
-mirror/
+

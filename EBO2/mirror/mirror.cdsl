@@ -1,0 +1,21 @@
+import "LEDArray.idsl";
+import "CameraSimple.idsl";
+import "EmotionalMotor.idsl";
+import "Speech.idsl";
+import "JuegoMirror.idsl";
+import "GestorSG.idsl";
+import "EboMoods.idsl";
+
+
+Component mirror
+{
+    Communications
+    {
+        implements JuegoMirror;
+        requires LEDArray, CameraSimple, EmotionalMotor, Speech, GestorSG, EboMoods;
+    };
+    language python;
+    gui Qt(QWidget);
+
+};
+
