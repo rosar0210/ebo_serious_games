@@ -19,6 +19,7 @@ mediapipe==0.10.35
 numpy==2.4.4
 opencv-contrib-python==4.13.0.92
 opencv-python==4.13.0.92
+openai
 packaging==26.0
 pandas==3.0.3
 pillow==12.2.0
