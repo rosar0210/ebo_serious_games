@@ -1,0 +1,19 @@
+import "LEDArray.idsl";
+import "EmotionalMotor.idsl";
+import "Speech.idsl";
+import "GestorSG.idsl";
+import "JuegoTrivial.idsl";
+import "CameraSimple.idsl";
+
+Component trivial
+{
+    Communications
+    {
+        implements JuegoTrivial;
+        requires LEDArray, EmotionalMotor, Speech, GestorSG, CameraSimple;
+    };
+    language python;
+    gui Qt(QWidget);
+
+};
+

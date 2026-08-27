@@ -1,0 +1,74 @@
+[
+    {
+        "pregunta": "¿Quién fue Cristóbal Colón?",
+        "opciones": ["Un navegante", "Un pintor", "Un cantante", "Un médico"],
+        "correcta": "Un navegante",
+        "dificultad": "Fácil"
+    },
+    {
+        "pregunta": "¿Qué se celebra tradicionalmente el 12 de octubre en España?",
+        "opciones": ["Día de la Hispanidad", "Nochebuena", "Día de Reyes", "Semana Santa"],
+        "correcta": "Día de la Hispanidad",
+        "dificultad": "Fácil"
+    },
+    {
+        "pregunta": "¿Cómo se llamaban los reyes que unieron Castilla y Aragón?",
+        "opciones": ["Reyes Católicos", "Reyes Magos", "Reyes de Francia", "Reyes de Roma"],
+        "correcta": "Reyes Católicos",
+        "dificultad": "Fácil"
+    },
+    {
+        "pregunta": "¿Qué civilización construyó el Coliseo?",
+        "opciones": ["Los romanos", "Los egipcios", "Los vikingos", "Los mayas"],
+        "correcta": "Los romanos",
+        "dificultad": "Fácil"
+    },
+    {
+        "pregunta": "¿En qué siglo terminó la Guerra Civil Española?",
+        "opciones": ["Siglo XX", "Siglo XIX", "Siglo XVIII", "Siglo XXI"],
+        "correcta": "Siglo XX",
+        "dificultad": "Medio"
+    },
+    {
+        "pregunta": "¿Quién fue Isabel la Católica?",
+        "opciones": ["Una reina", "Una escritora", "Una cantante", "Una pintora"],
+        "correcta": "Una reina",
+        "dificultad": "Medio"
+    },
+    {
+        "pregunta": "¿Qué pueblo antiguo construyó las pirámides de Egipto?",
+        "opciones": ["Los egipcios", "Los romanos", "Los griegos", "Los fenicios"],
+        "correcta": "Los egipcios",
+        "dificultad": "Medio"
+    },
+    {
+        "pregunta": "¿Qué se celebra el 6 de diciembre en España?",
+        "opciones": ["Día de la Constitución", "Día del Trabajo", "Día de Reyes", "Día de Andalucía"],
+        "correcta": "Día de la Constitución",
+        "dificultad": "Medio"
+    },
+    {
+        "pregunta": "¿Quién fue Napoleón Bonaparte?",
+        "opciones": ["Un emperador francés", "Un pintor español", "Un músico italiano", "Un rey portugués"],
+        "correcta": "Un emperador francés",
+        "dificultad": "Difícil"
+    },
+    {
+        "pregunta": "¿En qué país comenzó la Revolución Francesa?",
+        "opciones": ["Francia", "España", "Italia", "Alemania"],
+        "correcta": "Francia",
+        "dificultad": "Difícil"
+    },
+    {
+        "pregunta": "¿Qué acontecimiento histórico se asocia con el año 1492?",
+        "opciones": ["La llegada de Colón a América", "La llegada del hombre a la Luna", "La invención del teléfono", "El final de la Segunda Guerra Mundial"],
+        "correcta": "La llegada de Colón a América",
+        "dificultad": "Difícil"
+    },
+    {
+        "pregunta": "¿Qué país fue gobernado por Winston Churchill durante la Segunda Guerra Mundial?",
+        "opciones": ["Reino Unido", "Francia", "España", "Italia"],
+        "correcta": "Reino Unido",
+        "dificultad": "Difícil"
+    }
+]

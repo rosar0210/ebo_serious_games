@@ -1,0 +1,74 @@
+[
+    {
+        "pregunta": "¿Cuál es la capital de España?",
+        "opciones": ["Madrid", "Barcelona", "Sevilla", "Valencia"],
+        "correcta": "Madrid",
+        "dificultad": "Fácil"
+    },
+    {
+        "pregunta": "¿En qué país está la Torre Eiffel?",
+        "opciones": ["Francia", "Italia", "Portugal", "Alemania"],
+        "correcta": "Francia",
+        "dificultad": "Fácil"
+    },
+    {
+        "pregunta": "¿Qué mar baña la costa este de España?",
+        "opciones": ["Mar Mediterráneo", "Mar Rojo", "Mar Negro", "Mar Báltico"],
+        "correcta": "Mar Mediterráneo",
+        "dificultad": "Fácil"
+    },
+    {
+        "pregunta": "¿Cuál es la capital de Portugal?",
+        "opciones": ["Lisboa", "Oporto", "Coímbra", "Faro"],
+        "correcta": "Lisboa",
+        "dificultad": "Fácil"
+    },
+    {
+        "pregunta": "¿Qué comunidad autónoma española es famosa por el flamenco?",
+        "opciones": ["Andalucía", "Galicia", "Cantabria", "La Rioja"],
+        "correcta": "Andalucía",
+        "dificultad": "Medio"
+    },
+    {
+        "pregunta": "¿En qué comunidad autónoma está Santiago de Compostela?",
+        "opciones": ["Galicia", "Asturias", "Castilla y León", "Aragón"],
+        "correcta": "Galicia",
+        "dificultad": "Medio"
+    },
+    {
+        "pregunta": "¿Cuál es el río más conocido que pasa por Zaragoza?",
+        "opciones": ["Ebro", "Tajo", "Duero", "Guadiana"],
+        "correcta": "Ebro",
+        "dificultad": "Medio"
+    },
+    {
+        "pregunta": "¿En qué isla se encuentra el Teide?",
+        "opciones": ["Tenerife", "Mallorca", "Ibiza", "Gran Canaria"],
+        "correcta": "Tenerife",
+        "dificultad": "Medio"
+    },
+    {
+        "pregunta": "¿Cuál es la capital de Marruecos?",
+        "opciones": ["Rabat", "Casablanca", "Tánger", "Marrakech"],
+        "correcta": "Rabat",
+        "dificultad": "Difícil"
+    },
+    {
+        "pregunta": "¿Qué país tiene forma de bota?",
+        "opciones": ["Italia", "Grecia", "Francia", "Noruega"],
+        "correcta": "Italia",
+        "dificultad": "Difícil"
+    },
+    {
+        "pregunta": "¿Cuál es la capital de Argentina?",
+        "opciones": ["Buenos Aires", "Montevideo", "Santiago", "Lima"],
+        "correcta": "Buenos Aires",
+        "dificultad": "Difícil"
+    },
+    {
+        "pregunta": "¿Cuál es la capital de Japón?",
+        "opciones": ["Tokio", "Pekín", "Seúl", "Bangkok"],
+        "correcta": "Tokio",
+        "dificultad": "Difícil"
+    }
+]

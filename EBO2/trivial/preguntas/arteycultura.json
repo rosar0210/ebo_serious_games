@@ -1,0 +1,74 @@
+[
+    {
+        "pregunta": "Completa el refrán: A quien madruga...",
+        "opciones": ["Dios le ayuda", "Se le enfría la sopa", "Pierde el tren", "Duerme mejor"],
+        "correcta": "Dios le ayuda",
+        "dificultad": "Fácil"
+    },
+    {
+        "pregunta": "Completa el refrán: Más vale tarde que...",
+        "opciones": ["Nunca", "Temprano", "Siempre", "Ayer"],
+        "correcta": "Nunca",
+        "dificultad": "Fácil"
+    },
+    {
+        "pregunta": "¿Qué instrumento tiene teclas blancas y negras?",
+        "opciones": ["Piano", "Guitarra", "Tambor", "Flauta"],
+        "correcta": "Piano",
+        "dificultad": "Fácil"
+    },
+    {
+        "pregunta": "¿Qué se suele cantar en Navidad?",
+        "opciones": ["Villancicos", "Coplas", "Saetas", "Nanas"],
+        "correcta": "Villancicos",
+        "dificultad": "Fácil"
+    },
+    {
+        "pregunta": "¿Quién escribió Don Quijote de la Mancha?",
+        "opciones": ["Miguel de Cervantes", "Federico García Lorca", "Antonio Machado", "Lope de Vega"],
+        "correcta": "Miguel de Cervantes",
+        "dificultad": "Medio"
+    },
+    {
+        "pregunta": "¿Qué pintor español pintó Las Meninas?",
+        "opciones": ["Velázquez", "Picasso", "Dalí", "Goya"],
+        "correcta": "Velázquez",
+        "dificultad": "Medio"
+    },
+    {
+        "pregunta": "Completa el refrán: Perro ladrador...",
+        "opciones": ["Poco mordedor", "Muy dormilón", "Corre mejor", "Come jamón"],
+        "correcta": "Poco mordedor",
+        "dificultad": "Medio"
+    },
+    {
+        "pregunta": "Completa el refrán: No por mucho madrugar...",
+        "opciones": ["Amanece más temprano", "Se duerme mejor", "Llueve menos", "Se come antes"],
+        "correcta": "Amanece más temprano",
+        "dificultad": "Medio"
+    },
+    {
+        "pregunta": "¿Qué pintor español es conocido por sus relojes derretidos?",
+        "opciones": ["Salvador Dalí", "Pablo Picasso", "Francisco de Goya", "Joan Miró"],
+        "correcta": "Salvador Dalí",
+        "dificultad": "Difícil"
+    },
+    {
+        "pregunta": "¿Qué escritor español nació en Alcalá de Henares?",
+        "opciones": ["Miguel de Cervantes", "Antonio Machado", "Benito Pérez Galdós", "Camilo José Cela"],
+        "correcta": "Miguel de Cervantes",
+        "dificultad": "Difícil"
+    },
+    {
+        "pregunta": "¿Qué estilo musical se asocia tradicionalmente con Andalucía?",
+        "opciones": ["Flamenco", "Tango", "Sardana", "Jota aragonesa"],
+        "correcta": "Flamenco",
+        "dificultad": "Difícil"
+    },
+    {
+        "pregunta": "Completa el refrán: En casa del herrero...",
+        "opciones": ["Cuchillo de palo", "Todo es de hierro", "Nunca falta pan", "Se come primero"],
+        "correcta": "Cuchillo de palo",
+        "dificultad": "Difícil"
+    }
+]

@@ -1,0 +1,20 @@
+# Proxies for required interfaces
+Proxies.CameraSimple = "camerasimple:tcp -h 192.168.3.70 -p 10195"
+Proxies.EmotionalMotor = "emotionalmotor:tcp -h 192.168.3.70 -p 10945"
+Proxies.GestorSG = "gestorsg:tcp -h localhost -p 16299"
+Proxies.LEDArray = "ledarray:tcp -h 192.168.3.70 -p 10991"
+Proxies.Speech = "speech:tcp -h 192.168.3.70 -p 11339"
+
+# Endpoints for implements interfaces
+Endpoints.JuegoTrivial = "tcp -p 18100"
+
+
+Period.Compute = 100
+Period.Emergency = 500
+
+Component.Debug.Verbose = true
+
+Ice.Warn.Connections = "0"
+Ice.Trace.Network = "0"
+Ice.Trace.Protocol = "0"
+Ice.MessageSizeMax = "20004800"

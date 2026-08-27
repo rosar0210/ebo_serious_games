@@ -1,0 +1,74 @@
+[
+    {
+        "pregunta": "¿Qué usamos normalmente para ver la hora?",
+        "opciones": ["Un reloj", "Una cuchara", "Un zapato", "Una silla"],
+        "correcta": "Un reloj",
+        "dificultad": "Fácil"
+    },
+    {
+        "pregunta": "¿Qué usamos para abrir una puerta?",
+        "opciones": ["Una llave", "Un plato", "Un peine", "Una manta"],
+        "correcta": "Una llave",
+        "dificultad": "Fácil"
+    },
+    {
+        "pregunta": "¿Qué alimento se hace normalmente con harina, agua y levadura?",
+        "opciones": ["Pan", "Queso", "Tortilla", "Sopa"],
+        "correcta": "Pan",
+        "dificultad": "Fácil"
+    },
+    {
+        "pregunta": "¿Qué usamos para escribir en una hoja?",
+        "opciones": ["Lápiz", "Tenedor", "Cepillo", "Llave"],
+        "correcta": "Lápiz",
+        "dificultad": "Fácil"
+    },
+    {
+        "pregunta": "¿Qué día se celebra la Nochebuena?",
+        "opciones": ["24 de diciembre", "25 de diciembre", "31 de diciembre", "6 de enero"],
+        "correcta": "24 de diciembre",
+        "dificultad": "Medio"
+    },
+    {
+        "pregunta": "¿Qué alimento es típico en una tortilla española?",
+        "opciones": ["Patata", "Arroz", "Macarrones", "Lentejas"],
+        "correcta": "Patata",
+        "dificultad": "Medio"
+    },
+    {
+        "pregunta": "¿Qué solemos usar para protegernos de la lluvia?",
+        "opciones": ["Paraguas", "Abanico", "Sombrilla de playa", "Delantal"],
+        "correcta": "Paraguas",
+        "dificultad": "Medio"
+    },
+    {
+        "pregunta": "¿Qué aparato se usa para conservar fríos los alimentos?",
+        "opciones": ["Frigorífico", "Horno", "Tostadora", "Plancha"],
+        "correcta": "Frigorífico",
+        "dificultad": "Medio"
+    },
+    {
+        "pregunta": "¿Qué documento se usa normalmente para identificarse?",
+        "opciones": ["DNI", "Receta de cocina", "Calendario", "Factura de la luz"],
+        "correcta": "DNI",
+        "dificultad": "Difícil"
+    },
+    {
+        "pregunta": "¿Qué se suele tomar en España la noche del 31 de diciembre?",
+        "opciones": ["Uvas", "Lentejas", "Turrón de verano", "Helado de limón"],
+        "correcta": "Uvas",
+        "dificultad": "Difícil"
+    },
+    {
+        "pregunta": "¿Qué se usa para medir la temperatura del cuerpo?",
+        "opciones": ["Termómetro", "Metro", "Reloj", "Báscula"],
+        "correcta": "Termómetro",
+        "dificultad": "Difícil"
+    },
+    {
+        "pregunta": "¿Qué usamos para coser un botón?",
+        "opciones": ["Aguja e hilo", "Martillo y clavo", "Cuchara y tenedor", "Cepillo y pasta"],
+        "correcta": "Aguja e hilo",
+        "dificultad": "Difícil"
+    }
+]

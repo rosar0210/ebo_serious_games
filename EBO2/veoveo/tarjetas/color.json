@@ -1,0 +1,26 @@
+[
+  {
+    "nombre": "tarjeta roja",
+    "categoria": "color",
+    "pista": "Veo veo una cosa de color rojo.",
+    "prompt_vlm": "a person holding a red card in front of the camera"
+  },
+  {
+    "nombre": "tarjeta azul",
+    "categoria": "color",
+    "pista": "Veo veo una cosa de color azul.",
+    "prompt_vlm": "a person holding a blue card in front of the camera"
+  },
+  {
+    "nombre": "tarjeta verde",
+    "categoria": "color",
+    "pista": "Veo veo una cosa de color verde.",
+    "prompt_vlm": "a person holding a green card in front of the camera"
+  },
+  {
+    "nombre": "tarjeta amarilla",
+    "categoria": "color",
+    "pista": "Veo veo una cosa de color amarillo.",
+    "prompt_vlm": "a person holding a yellow card in front of the camera"
+  }
+]

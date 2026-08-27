@@ -1,0 +1,26 @@
+[
+ {
+    "nombre": "perro",
+    "categoria": "animal",
+    "pista": "Veo veo un animal que ladra.",
+    "prompt_vlm": "a person holding a card with a dog drawing"
+  },
+  {
+    "nombre": "gato",
+    "categoria": "animal",
+    "pista": "Veo veo un animal que maulla.",
+    "prompt_vlm": "a person holding a card with a cat drawing"
+  },
+  {
+    "nombre": "pez",
+    "categoria": "animal",
+    "pista": "Veo veo un animal que vive en el agua.",
+    "prompt_vlm": "a person holding a card with a fish drawing"
+  },
+  {
+    "nombre": "pajaro",
+    "categoria": "animal",
+    "pista": "Veo veo un animal que puede volar.",
+    "prompt_vlm": "a person holding a card with a bird drawing"
+  }
+]

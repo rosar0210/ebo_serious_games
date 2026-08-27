@@ -1,0 +1,26 @@
+[
+ {
+    "nombre": "cara feliz",
+    "categoria": "emocion",
+    "pista": "Veo veo una cara que esta contenta.",
+    "prompt_vlm": "a person holding a card with a happy face drawing"
+  },
+  {
+    "nombre": "cara triste",
+    "categoria": "emocion",
+    "pista": "Veo veo una cara que esta triste.",
+    "prompt_vlm": "a person holding a card with a sad face drawing"
+  },
+  {
+    "nombre": "cara enfadada",
+    "categoria": "emocion",
+    "pista": "Veo veo una cara que esta enfadada.",
+    "prompt_vlm": "a person holding a card with an angry face drawing"
+  },
+  {
+    "nombre": "cara sorprendida",
+    "categoria": "emocion",
+    "pista": "Veo veo una cara de sorpresa.",
+    "prompt_vlm": "a person holding a card with a surprised face drawing"
+  }
+]

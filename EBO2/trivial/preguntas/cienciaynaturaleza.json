@@ -1,0 +1,74 @@
+[
+    {
+        "pregunta": "¿Qué astro nos da luz durante el día?",
+        "opciones": ["El Sol", "La Luna", "Marte", "Una nube"],
+        "correcta": "El Sol",
+        "dificultad": "Fácil"
+    },
+    {
+        "pregunta": "¿Qué animal dice miau?",
+        "opciones": ["Gato", "Perro", "Caballo", "Gallina"],
+        "correcta": "Gato",
+        "dificultad": "Fácil"
+    },
+    {
+        "pregunta": "¿Qué parte del cuerpo usamos para ver?",
+        "opciones": ["Los ojos", "Las manos", "Los pies", "Los codos"],
+        "correcta": "Los ojos",
+        "dificultad": "Fácil"
+    },
+    {
+        "pregunta": "¿Qué necesitan las plantas para crecer?",
+        "opciones": ["Agua y luz", "Azúcar y sal", "Papel y tinta", "Aceite y vinagre"],
+        "correcta": "Agua y luz",
+        "dificultad": "Fácil"
+    },
+    {
+        "pregunta": "¿Qué gas respiramos principalmente para vivir?",
+        "opciones": ["Oxígeno", "Helio", "Butano", "Humo"],
+        "correcta": "Oxígeno",
+        "dificultad": "Medio"
+    },
+    {
+        "pregunta": "¿Qué planeta es conocido como el planeta rojo?",
+        "opciones": ["Marte", "Venus", "Júpiter", "Saturno"],
+        "correcta": "Marte",
+        "dificultad": "Medio"
+    },
+    {
+        "pregunta": "¿Qué órgano bombea la sangre en nuestro cuerpo?",
+        "opciones": ["El corazón", "El pulmón", "El estómago", "El oído"],
+        "correcta": "El corazón",
+        "dificultad": "Medio"
+    },
+    {
+        "pregunta": "¿Qué animal pone huevos y cacarea?",
+        "opciones": ["La gallina", "La vaca", "El perro", "El gato"],
+        "correcta": "La gallina",
+        "dificultad": "Medio"
+    },
+    {
+        "pregunta": "¿Cómo se llama el cambio de agua líquida a vapor?",
+        "opciones": ["Evaporación", "Congelación", "Fermentación", "Oxidación"],
+        "correcta": "Evaporación",
+        "dificultad": "Difícil"
+    },
+    {
+        "pregunta": "¿Qué órgano usamos principalmente para respirar?",
+        "opciones": ["Los pulmones", "El hígado", "El corazón", "El estómago"],
+        "correcta": "Los pulmones",
+        "dificultad": "Difícil"
+    },
+    {
+        "pregunta": "¿Qué animal realiza la metamorfosis?",
+        "opciones": ["La mariposa", "La abeja", "El caracol", "La hormiga"],
+        "correcta": "La mariposa",
+        "dificultad": "Difícil"
+    },
+    {
+        "pregunta": "¿Qué fenómeno vemos cuando llueve y sale el sol al mismo tiempo?",
+        "opciones": ["Arcoíris", "Nieve", "Granizo", "Niebla"],
+        "correcta": "Arcoíris",
+        "dificultad": "Difícil"
+    }
+]

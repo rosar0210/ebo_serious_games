@@ -1,0 +1,67 @@
+[
+    {
+        "pregunta": "¿Qué programa musical español se emitía en Nochevieja con actuaciones y canciones?",
+        "opciones": ["Gala de Nochevieja", "El Telediario", "El Tiempo", "Informe Semanal"],
+        "correcta": "Gala de Nochevieja",
+        "dificultad": "Fácil"
+    },
+    {
+        "pregunta": "¿Qué juego se juega cantando números?",
+        "opciones": ["Bingo", "Ajedrez", "Dominó", "Parchís"],
+        "correcta": "Bingo",
+        "dificultad": "Fácil"
+    },
+    {
+        "pregunta": "¿Qué se usa para sintonizar las emisoras?",
+        "opciones": ["Una radio", "Una sartén", "Una escoba", "Una almohada"],
+        "correcta": "Una radio"
+    },
+    {
+        "pregunta": "¿Qué juego tiene fichas blancas y negras con puntos?",
+        "opciones": ["Dominó", "Parchís", "Cartas", "Ajedrez"],
+        "correcta": "Dominó",
+        "dificultad": "Fácil"
+    },
+    {
+        "pregunta": "¿Qué cantante española era conocida como la más grande?",
+        "opciones": ["Rocío Jurado", "Massiel", "Lola Flores", "Sara Montiel"],
+        "correcta": "Rocío Jurado",
+        "dificultad": "Medio"
+    },
+    {
+        "pregunta": "¿Qué artista era conocida como La Faraona?",
+        "opciones": ["Lola Flores", "Rocío Dúrcal", "Carmen Sevilla", "Marisol"],
+        "correcta": "Lola Flores",
+        "dificultad": "Medio"
+    },
+    {
+        "pregunta": "¿Qué juego tradicional tiene casillas de colores y cuatro fichas por jugador?",
+        "opciones": ["Parchís", "Dominó", "Tres en raya", "Bingo"],
+        "correcta": "Parchís",
+        "dificultad": "Medio"
+    },
+    {
+        "pregunta": "¿Qué película española está protagonizada por un famoso personaje llamado Manolo Escobar en muchas canciones populares?",
+        "opciones": ["La ciudad no es para mí", "El bueno, el feo y el malo", "Casablanca", "Ben-Hur"],
+        "correcta": "La ciudad no es para mí",
+        "dificultad": "Medio"
+    },
+    {
+        "pregunta": "¿Qué cantante interpretó la famosa canción 'Mi carro'?",
+        "opciones": ["Manolo Escobar", "Julio Iglesias", "Raphael", "Nino Bravo"],
+        "correcta": "Manolo Escobar",
+        "dificultad": "Difícil"
+    },
+    {
+        "pregunta": "¿Qué cantante español es conocido por la canción 'Libre'?",
+        "opciones": ["Nino Bravo", "Raphael", "Julio Iglesias", "Camilo Sesto"],
+        "correcta": "Nino Bravo",
+        "dificultad": "Difícil"
+    },
+    {
+        "pregunta": "¿Qué juego de cartas español se juega con oros, copas, espadas y bastos?",
+        "opciones": ["La baraja española", "El póker", "El bridge", "El solitario francés"],
+        "correcta": "La baraja española",
+        "dificultad": "Difícil"
+    }
+]

@@ -1,0 +1,26 @@
+[
+ {
+    "nombre": "circulo",
+    "categoria": "forma",
+    "pista": "Veo veo una forma redonda.",
+    "prompt_vlm": "a person holding a card with a circle shape"
+  },
+  {
+    "nombre": "cuadrado",
+    "categoria": "forma",
+    "pista": "Veo veo una forma con cuatro lados iguales.",
+    "prompt_vlm": "a person holding a card with a square shape"
+  },
+  {
+    "nombre": "triangulo",
+    "categoria": "forma",
+    "pista": "Veo veo una forma con tres lados.",
+    "prompt_vlm": "a person holding a card with a triangle shape"
+  },
+  {
+    "nombre": "estrella",
+    "categoria": "forma",
+    "pista": "Veo veo una forma que parece brillar en el cielo.",
+    "prompt_vlm": "a person holding a card with a star shape"
+  }
+]

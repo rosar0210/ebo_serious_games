@@ -1,0 +1,19 @@
+import "CameraSimple.idsl";
+import "EmotionalMotor.idsl";
+import "Speech.idsl";
+import "LEDArray.idsl";
+import "GestorSG.idsl";
+import "JuegoVeoVeo.idsl";
+
+Component veoveo
+{
+    Communications
+    {
+        implements JuegoVeoVeo;
+        requires CameraSimple, EmotionalMotor, Speech, LEDArray, GestorSG;
+    };
+    language python;
+    gui Qt(QWidget);
+
+};
+

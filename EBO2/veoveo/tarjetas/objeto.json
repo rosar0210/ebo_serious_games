@@ -1,0 +1,48 @@
+[
+  {
+    "nombre": "libro",
+    "categoria": "objeto",
+    "pista": "Veo veo algo que se usa para leer.",
+    "prompt_vlm": "a person holding a card with a book drawing"
+  },
+  {
+    "nombre": "lapiz",
+    "categoria": "objeto",
+    "pista": "Veo veo algo que se usa para escribir.",
+    "prompt_vlm": "a person holding a card with a pencil drawing"
+  },
+  {
+    "nombre": "pelota",
+    "categoria": "objeto",
+    "pista": "Veo veo algo redondo que sirve para jugar.",
+    "prompt_vlm": "a person holding a card with a ball drawing"
+  },
+  {
+    "nombre": "coche",
+    "categoria": "objeto",
+    "pista": "Veo veo algo que tiene ruedas y se mueve.",
+    "prompt_vlm": "a person holding a card with a car drawing"
+  }
+  {
+    "pista": "Veo veo algo que se usa para leer.",
+    "prompt_vlm": "a person holding a card with a book drawing"
+  },
+  {
+    "nombre": "lapiz",
+    "categoria": "objeto",
+    "pista": "Veo veo algo que se usa para escribir.",
+    "prompt_vlm": "a person holding a card with a pencil drawing"
+  },
+  {
+    "nombre": "pelota",
+    "categoria": "objeto",
+    "pista": "Veo veo algo redondo que sirve para jugar.",
+    "prompt_vlm": "a person holding a card with a ball drawing"
+  },
+  {
+    "nombre": "coche",
+    "categoria": "objeto",
+    "pista": "Veo veo algo que tiene ruedas y se mueve.",
+    "prompt_vlm": "a person holding a card with a car drawing"
+    }
+]
