@@ -39,7 +39,10 @@ class GenericWorker(QtWidgets.QWidget):
         super(GenericWorker, self).__init__()
 
         self.encuesta_proxy = mprx["Encuesta"]
+        self.juegomirror_proxy = mprx["JuegoMirror"]
         self.juegosimonsay_proxy = mprx["JuegoSimonSay"]
+        self.juegotrivial_proxy = mprx["JuegoTrivial"]
+        self.juegoveoveo_proxy = mprx["JuegoVeoVeo"]
         self.pasapalabra_proxy = mprx["Pasapalabra"]
         self.storytelling_proxy = mprx["StoryTelling"]
         self.therapistpanel_proxy = mprx["TherapistPanel"]

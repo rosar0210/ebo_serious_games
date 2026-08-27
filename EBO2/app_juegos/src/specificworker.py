@@ -131,6 +131,8 @@ class SpecificWorker(GenericWorker):
         ui.therapist_button.clicked.connect(self.therapist_clicked)
         ui.encuesta_button.clicked.connect(self.encuesta_clicked)
         ui.mimica_button.clicked.connect(self.mimica_clicked)
+        ui.trivial_button.clicked.connect(self.trivial_clicked)
+        ui.veoveo_button.clicked.connect(self.veoveo_clicked)
 
         ui.ayuda.hide()
         ui.ayuda_button.clicked.connect(self.ayuda_clicked)
@@ -228,6 +230,14 @@ class SpecificWorker(GenericWorker):
     def mimica_clicked(self):
         self.gameName = "Mímica"
         self._launch_game("juegomirror_proxy")
+
+    def trivial_clicked(self):
+        self.gameName = "Trivial"
+        self._launch_game("juegotrivial_proxy")
+
+    def veoveo_clicked(self):
+        self.gameName = "Veo Veo"
+        self._launch_game("juegoveoveo_proxy")
 
     def ayuda_clicked(self):
         if self.ui.ayuda.isVisible():  # Verifica si está visible
@@ -383,6 +393,14 @@ class SpecificWorker(GenericWorker):
     ######################
     # From the RoboCompJuegoSimonSay you can call this methods:
     # RoboCompJuegoSimonSay.void self.juegosimonsay_proxy.StartGame()
+
+    ######################
+    # From the RoboCompJuegoTrivial you can call this methods:
+    # RoboCompJuegoTrivial.void self.juegotrivial_proxy.StartGame()
+
+    ######################
+    # From the RoboCompJuegoVeoVeo you can call this methods:
+    # RoboCompJuegoVeoVeo.void self.juegoveoveo_proxy.StartGame()
 
     ######################
     # From the RoboCompPasapalabra you can call this methods:

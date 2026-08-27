@@ -1,6 +1,9 @@
 # Proxies for required interfaces
 Proxies.Encuesta = "encuesta:tcp -h localhost -p 0"
+Proxies.JuegoMirror = "juegomirror:tcp -h localhost -p 0"
 Proxies.JuegoSimonSay = "juegosimonsay:tcp -h localhost -p 0"
+Proxies.JuegoTrivial = "juegotrivial:tcp -h localhost -p 0"
+Proxies.JuegoVeoVeo = "juegoveoveo:tcp -h localhost -p 0"
 Proxies.Pasapalabra = "pasapalabra:tcp -h localhost -p 0"
 Proxies.StoryTelling = "storytelling:tcp -h localhost -p 0"
 Proxies.TherapistPanel = "therapistpanel:tcp -h localhost -p 0"

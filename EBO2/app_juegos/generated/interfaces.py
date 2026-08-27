@@ -8,8 +8,14 @@ Ice.loadSlice("-I ./generated/ --all ./generated/Encuesta.ice")
 import RoboCompEncuesta
 Ice.loadSlice("-I ./generated/ --all ./generated/GestorSG.ice")
 import RoboCompGestorSG
+Ice.loadSlice("-I ./generated/ --all ./generated/JuegoMirror.ice")
+import RoboCompJuegoMirror
 Ice.loadSlice("-I ./generated/ --all ./generated/JuegoSimonSay.ice")
 import RoboCompJuegoSimonSay
+Ice.loadSlice("-I ./generated/ --all ./generated/JuegoTrivial.ice")
+import RoboCompJuegoTrivial
+Ice.loadSlice("-I ./generated/ --all ./generated/JuegoVeoVeo.ice")
+import RoboCompJuegoVeoVeo
 Ice.loadSlice("-I ./generated/ --all ./generated/Pasapalabra.ice")
 import RoboCompPasapalabra
 Ice.loadSlice("-I ./generated/ --all ./generated/StoryTelling.ice")
@@ -56,7 +62,10 @@ class Requires:
         self.mprx={}
 
         self.Encuesta = self.create_proxy("Encuesta", RoboCompEncuesta.EncuestaPrx, parameters["Proxies"]["Encuesta"])
+        self.JuegoMirror = self.create_proxy("JuegoMirror", RoboCompJuegoMirror.JuegoMirrorPrx, parameters["Proxies"]["JuegoMirror"])
         self.JuegoSimonSay = self.create_proxy("JuegoSimonSay", RoboCompJuegoSimonSay.JuegoSimonSayPrx, parameters["Proxies"]["JuegoSimonSay"])
+        self.JuegoTrivial = self.create_proxy("JuegoTrivial", RoboCompJuegoTrivial.JuegoTrivialPrx, parameters["Proxies"]["JuegoTrivial"])
+        self.JuegoVeoVeo = self.create_proxy("JuegoVeoVeo", RoboCompJuegoVeoVeo.JuegoVeoVeoPrx, parameters["Proxies"]["JuegoVeoVeo"])
         self.Pasapalabra = self.create_proxy("Pasapalabra", RoboCompPasapalabra.PasapalabraPrx, parameters["Proxies"]["Pasapalabra"])
         self.StoryTelling = self.create_proxy("StoryTelling", RoboCompStoryTelling.StoryTellingPrx, parameters["Proxies"]["StoryTelling"])
         self.TherapistPanel = self.create_proxy("TherapistPanel", RoboCompTherapistPanel.TherapistPanelPrx, parameters["Proxies"]["TherapistPanel"])

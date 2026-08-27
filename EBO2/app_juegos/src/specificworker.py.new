@@ -84,8 +84,20 @@ class SpecificWorker(GenericWorker):
     # RoboCompEncuesta.void self.encuesta_proxy.StartSurvey()
 
     ######################
+    # From the RoboCompJuegoMirror you can call this methods:
+    # RoboCompJuegoMirror.void self.juegomirror_proxy.StartGame()
+
+    ######################
     # From the RoboCompJuegoSimonSay you can call this methods:
     # RoboCompJuegoSimonSay.void self.juegosimonsay_proxy.StartGame()
+
+    ######################
+    # From the RoboCompJuegoTrivial you can call this methods:
+    # RoboCompJuegoTrivial.void self.juegotrivial_proxy.StartGame()
+
+    ######################
+    # From the RoboCompJuegoVeoVeo you can call this methods:
+    # RoboCompJuegoVeoVeo.void self.juegoveoveo_proxy.StartGame()
 
     ######################
     # From the RoboCompPasapalabra you can call this methods:

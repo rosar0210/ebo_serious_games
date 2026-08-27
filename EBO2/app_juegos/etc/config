@@ -4,7 +4,9 @@ Proxies.Pasapalabra = pasapalabra:tcp -h localhost -p 18743
 Proxies.StoryTelling = storytelling:tcp -h localhost -p 16758
 Proxies.TherapistPanel = therapistpanel:tcp -h localhost -p 23540
 Proxies.Encuesta = encuesta:tcp -h localhost -p 23640
-Proxies.Mimica = mimica:tcp: -h localhost -p 19500
+Proxies.JuegoMirror = juegomirror:tcp -h localhost -p 18000
+Proxies.JuegoTrivial = juegotrivial:tcp -h localhost -p 18100
+Proxies.JuegoVeoVeo = juegoveoveo:tcp -h localhost -p 18200
 
 # Endpoints for implements interfaces
 Endpoints.GestorSG= tcp -p 16299

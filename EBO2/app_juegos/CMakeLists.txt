@@ -20,7 +20,7 @@ SET(RC_COMPONENT_DEVEL_PATH ${CMAKE_CURRENT_SOURCE_DIR} CACHE STRING "component 
 SET(RC_OUTPUT_ICE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/generated)
 
 #Generate ices
-ROBOCOMP_IDSL_TO_ICE(Encuesta Encuesta GestorSG GestorSG JuegoSimonSay JuegoSimonSay Pasapalabra Pasapalabra StoryTelling StoryTelling TherapistPanel TherapistPanel )
+ROBOCOMP_IDSL_TO_ICE(Encuesta Encuesta GestorSG GestorSG JuegoMirror JuegoMirror JuegoSimonSay JuegoSimonSay JuegoTrivial JuegoTrivial JuegoVeoVeo JuegoVeoVeo Pasapalabra Pasapalabra StoryTelling StoryTelling TherapistPanel TherapistPanel )
 
 
 ADD_SUBDIRECTORY( src )
