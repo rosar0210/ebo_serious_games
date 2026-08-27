@@ -43,6 +43,12 @@ scripts["encuesta"]="encuesta.py"
 rutas["mirror"]="$BASE_DIR/mirror"
 scripts["mirror"]="mirror.py"
 
+rutas["trivial"]="$BASE_DIR/trivial"
+scripts["trivial"]="trivial.py"
+
+rutas["veoveo"]="$BASE_DIR/veoveo"
+scripts["veoveo"]="veoveo.py"
+
 # Función mejorada
 function abrir_pestana {
     local ruta="$1"
@@ -51,8 +57,7 @@ function abrir_pestana {
     local subcarpeta="src"
 
     # Si son componentes recientes, usamos 'generated'
-    if [[ "$nombre" == "therapistPanel" || "$nombre" == "APP_JUEGOS" ||"$nombre" == "mirror" ||"$nombre" == "encuesta" ]]; then
-        subcarpeta="generated"
+    if [[ "$nombre" == "therapistPanel" || "$nombre" == "mirror" || "$nombre" == "encuesta" || "$nombre" == "trivial" || "$nombre" == "veoveo" || "$nombre" == "APP_JUEGOS" ]]; then subcarpeta="generated"
     fi
 
     gnome-terminal --tab -- bash -c "
