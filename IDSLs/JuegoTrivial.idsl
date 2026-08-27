@@ -1,0 +1,5 @@
+module RoboCompJuegoTrivial{
+	interface JuegoTrivial{
+		void StartGame();
+  };
+};

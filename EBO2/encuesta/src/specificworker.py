@@ -21,7 +21,7 @@
 from time import strftime
 
 from PySide6.QtCore import QTimer, Slot, QFile
-from PySide6.QtWidgets import QApplication
+from PySide6.QtWidgets import QApplication, QInputDialog
 from rich.console import Console
 from genericworker import *
 import interfaces as ifaces
@@ -73,6 +73,7 @@ class SpecificWorker(GenericWorker):
         self.ui = self.encuesta_ui()
 
         self.respuesta = 0
+        self.usuario = ""
 
         ruta_script = os.path.dirname(os.path.abspath(__file__))
 
@@ -198,8 +199,8 @@ class SpecificWorker(GenericWorker):
 
         with open(nombre_archivo, mode='a', newline='', encoding='utf-8') as archivo:
             escritor = csv.writer(archivo)
-            # Guardamos la fecha/hora y la puntuación
-            escritor.writerow([fecha, puntuacion])
+            # Guardamos la fecha/hora, el usuario y la puntuación
+            escritor.writerow([fecha, self.usuario, puntuacion])
 
 ####################################################################################################################################
     def encuesta_ui(self):
@@ -285,12 +286,36 @@ class SpecificWorker(GenericWorker):
         else:
             print(f"Error: {ui_nombre} no existe en la instancia.")
 
+    def centrar_ventana(self, ventana):
+        # Obtener la geometría de la pantalla
+        pantalla = QApplication.primaryScreen().availableGeometry()
+        # Obtener el tamaño de la ventana
+        tamano_ventana = ventana.size()
+        # Calcular las coordenadas para centrar la ventana
+        x = (pantalla.width() - tamano_ventana.width()) // 2
+        y = (pantalla.height() - tamano_ventana.height()) // 2
+        # Mover la ventana a la posición calculada
+        ventana.move(x, y)
+
     @Slot()
     def handle_update_ui(self):
         """ Esta función se encarga de hacer visible la ventana """
+        dialogo = QInputDialog(None)
+        dialogo.setWindowTitle("Paciente")
+        dialogo.setLabelText("Introduce el nombre del paciente:")
+        self.centrar_ventana(dialogo)
+
+        ok = dialogo.exec_()
+        nombre = dialogo.textValue()
+
+        if ok and nombre.strip():
+            self.usuario = nombre.strip()
+        else:
+            self.usuario = ""
         if self.ui:
             self.ui.removeEventFilter(self)
             self.ui.installEventFilter(self)
+            self.centrar_ventana(self.ui)
             self.ui.show()
             self.ui.raise_()
             self.ui.activateWindow()  # La pone al frente de todas las carpetas

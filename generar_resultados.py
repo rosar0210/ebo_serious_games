@@ -17,6 +17,8 @@ possible_paths = {
         "../../EBO2/pasapalabra/resultados_pasapalabra.json",
         "../../EBO2/simonSay/resultados_juego.json",
         "../../EBO2/mirror/resultados_mirror.json"
+        "../../EBO2/trivial/resultados_trivial.json"
+        "../../EBO2/veoveo/resultados_veoveo.json"
     ]
 }
 

@@ -1,12 +1,21 @@
 EBO1/ebo_gpt/.env
 EBO2/ebo_gpt/.env
 EBO2/games_venv/
+# Bloquear la basura estructural de la subcarpeta EBO2
+/EBO2/src/
+/EBO2/generated/
+/EBO2/etc/
+
+# Bloquear archivos de compilación en esa misma ruta
+/EBO2/CMakeLists.txt
+/EBO2/DoxyFile
+/EBO2/README.md.new
 # Ignorar carpetas de dependencias (pesan mucho)
 node_modules/
 bin/
 obj/
 
-# Ignorar archivos temporales del sistema
+# Ignorar archios temporales del sistema
 .DS_Store
 Thumbs.db
 
@@ -39,3 +48,5 @@ EBO2/therapistPanel/therapy_control/
 EBO2/simonSay/resultados_juego.json
 EBO2/ebo_gpt/conversaciones/
 EBO2/storytelling/src/memoria/
+
+

@@ -1,0 +1,5 @@
+module RoboCompJuegoMimica{
+	interface JuegoMimica{
+		void StartGame();
+  };
+};

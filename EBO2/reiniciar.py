@@ -2,7 +2,7 @@ import os
 import subprocess
 
 # Lista de nombres de procesos a rastrear
-nombres_procesos = ['app_juegos', 'ebo_gpt', 'pasapalabra', 'simonSay', 'storytelling', 'ebo_app','encuesta', 'therapistPanel', 'mirror' ]
+nombres_procesos = ['app_juegos', 'ebo_gpt', 'pasapalabra', 'simonSay', 'storytelling', 'ebo_app','encuesta', 'therapistPanel', 'mirror', 'trivial', 'veoveo' ]
 
 def matar_procesos():
     # Usar el comando ps para listar los procesos en ejecución
