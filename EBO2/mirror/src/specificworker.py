@@ -274,7 +274,7 @@ class SpecificWorker(GenericWorker):
         self.imagen = np.frombuffer(self.imag.image, dtype=np.uint8).reshape((self.alto, self.ancho, 3))
         self.imagen_rgb = cv2.cvtColor(self.imagen, cv2.COLOR_BGR2RGB)
 
-        self.imagen_rgb = cv2.flip(self.imagen_rgb, 0)
+        # self.imagen_rgb = cv2.flip(self.imagen_rgb, 0)
 
         #Mostrar imagen
         # cv2.imshow("Camara RoboComp - Juego Mirror", self.imagen)
@@ -463,7 +463,7 @@ class SpecificWorker(GenericWorker):
         i = 0
 
         while i < int(self.rondas) and self.running:
-            self.speech_proxy.say(self.elegir_respuesta(self.bateria_rondas, rondas = i+1), False)
+            self.speech_proxy.say(self.elegir_respuesta(self.bateria_rondas, ronda = i+1), False)
             print(f"Ronda número {i+1}.")
             self.rondas_complet = i +1
             self.terminaHablar()
@@ -528,6 +528,7 @@ class SpecificWorker(GenericWorker):
         self.speech_proxy.say(self.elegir_respuesta(self.bateria_fin_juego), False)
         print("Juego terminado")
         self.terminaHablar()
+        self.ebomoods_proxy.expressJoy()
         if len(self.responses_times) > 0:
             self.media = sum(self.responses_times) / len(self.responses_times)
         else:

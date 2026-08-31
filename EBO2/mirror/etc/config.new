@@ -1,0 +1,22 @@
+# Proxies for required interfaces
+Proxies.CameraSimple = "camerasimple:tcp -h localhost -p 0"
+Proxies.EboMoods = "ebomoods:tcp -h localhost -p 0"
+Proxies.EmotionalMotor = "emotionalmotor:tcp -h localhost -p 0"
+Proxies.GestorSG = "gestorsg:tcp -h localhost -p 0"
+Proxies.LEDArray = "ledarray:tcp -h localhost -p 0"
+Proxies.Speech = "speech:tcp -h localhost -p 0"
+
+# Endpoints for implements interfaces
+Endpoints.JuegoMirror = "tcp -p 0"
+
+
+
+Period.Compute = 100
+Period.Emergency = 500
+
+Component.Debug.Verbose = true
+
+Ice.Warn.Connections = "0"
+Ice.Trace.Network = "0"
+Ice.Trace.Protocol = "0"
+Ice.MessageSizeMax = "20004800"
