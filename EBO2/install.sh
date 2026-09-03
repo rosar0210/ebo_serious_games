@@ -5,7 +5,7 @@ set -euo pipefail
 
 PROJECT_PATH="$(pwd)"
 VENV_DIR="$PROJECT_PATH/games_venv"
-PY_CMD="python3.10"
+PY_CMD="python3.11"
 REQUIREMENTS="$PROJECT_PATH/requirements.txt"
 
 echo "Ruta del proyecto: $PROJECT_PATH"
@@ -61,15 +61,14 @@ get_major_minor() {
 ensure_venv() {
     if [ -d "$VENV_DIR" ]; then
         if [ -x "$VENV_DIR/bin/python" ]; then
-            VENV_PY="$VENV_DIR/bin/python"
             VENV_VER="$(get_major_minor "$VENV_PY" 2>/dev/null || true)"
-            if [ "$VENV_VER" = "3.10" ]; then
-                echo "El venv ya existe y usa Python 3.10 (se reutilizará)."
-                return 0
-            else
-                echo "El venv existente usa Python $VENV_VER (no 3.10). Se recreará."
-                rm -rf "$VENV_DIR"
-            fi
+   	 	if [ "$VENV_VER" = "3.10" ] || [ "$VENV_VER" = "3.11" ]; then
+        		echo "El venv ya existe y usa Python $VENV_VER (se reutilizará)."
+        		return 0
+    		else
+        		echo "El venv existente usa Python $VENV_VER. Se recreará para ajustarse."
+        		rm -rf "$VENV_DIR"
+   		 fi
         else
             echo "El venv existe pero no tiene $VENV_DIR/bin/python ejecutable. Se recreará."
             rm -rf "$VENV_DIR"
