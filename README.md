@@ -19,7 +19,7 @@ sudo apt-get install -y python3.11-venv python3-tk libxcb-xinerama0 libxcb-curso
      libxkbcommon-x11-0 libxcb-randr0 libxcb-icccm4 libxcb-image0 \
      libxcb-keysyms1 libxcb-render-util0 libglu1-mesa
 ```
-**Nota:** En algunas distribuciones el paquete puede llamarse `python3-venv` (sin la versión). Si `python3.10-venv` no está disponible, prueba con:
+**Nota:** En algunas distribuciones el paquete puede llamarse `python3-venv` (sin la versión). Si `python3.11-venv` no está disponible, prueba con:
 > ```sh
 > sudo apt-get install -y python3-venv
 > ```
