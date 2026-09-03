@@ -2,21 +2,22 @@
 
 ## Instalación y configuración de EBO2
 
-Ahora todo el proceso de preparar la aplicación se realiza mediante el script `install.sh`, que automatiza la creación del entorno virtual, la instalación de dependencias y la configuración del lanzador.
+Todo el proceso de preparación de la aplicación está automatizado mediante el script `install.sh`. Este script comprueba tu versión de Python, crea un entorno virtual aislado, instala las dependencias necesarias y configura los accesos directos del sistema.
 
 ---
 
 ### 1) Configuración previa (dependencias del sistema)
 
-Antes de ejecutar el script de instalación, asegúrate de tener instaladas las librerías necesarias del sistema.  
-Estas librerías permiten que la aplicación funcione correctamente con Tkinter y con PySide/Qt (plugin xcb), y además habilitan la creación de entornos virtuales con `venv`.
+Antes de ejecutar el script de instalación, asegúrate de tener instaladas las librerías base del sistema. 
+Estas librerías permiten que la interfaz gráfica (PySide6/Qt y Tkinter) y las herramientas de visión artificial funcionen correctamente.
 
-En **Ubuntu / Debian** puedes instalarlas con:
+En **Ubuntu / Debian**, instálalas ejecutando:
 
 ```sh
 sudo apt-get update
-sudo apt-get install -y     python3.10-venv     python3-tk     libxcb-xinerama0     libxcb-cursor0     libxkbcommon-x11-0     libxcb-randr0     libxcb-icccm4     libxcb-image0     libxcb-keysyms1     libxcb-render-util0     libglu1-mesa
-```
+sudo apt-get install -y python3.11-venv python3-tk libxcb-xinerama0 libxcb-cursor0 \
+     libxkbcommon-x11-0 libxcb-randr0 libxcb-icccm4 libxcb-image0 \
+     libxcb-keysyms1 libxcb-render-util0 libglu1-mesa
 > **Nota:** En algunas distribuciones el paquete puede llamarse `python3-venv` (sin la versión). Si `python3.10-venv` no está disponible, prueba con:
 > ```sh
 > sudo apt-get install -y python3-venv
@@ -30,7 +31,7 @@ Clona el repo y entra en la carpeta `EBO2`:
 
 
   ```sh
-  git clone https://github.com/AntonioBlanco00/ebo_serious_games.git
+  git clone https://github.com/rosar0210/ebo_serious_games.git
   cd ebo_serious_games/EBO2
   ```
 
@@ -56,7 +57,7 @@ Este script, de forma automática:
 
 ### 4) Ejecutar la aplicación
 
-- **Desde el escritorio**: haz doble click en el icono de **EBO2** (la primera vez puede que tengas que hacer clic derecho → *Allow launching*).
+- **Desde el escritorio**: haz doble click en el icono de **EBO2** (la primera vez puede que tengas que hacer clic derecho → *Allow launching* o *Permitir lanzar*).
 - **Desde el menú de aplicaciones**: busca **EBO2** y ejecútalo directamente.
 
 ---
