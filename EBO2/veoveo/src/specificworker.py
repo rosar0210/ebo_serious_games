@@ -282,6 +282,7 @@ class SpecificWorker(GenericWorker):
             ui.ayuda.setVisible(not ui.ayuda.isVisible())
 
     def back_clicked_ui(self, ui_number):
+        self.running = False
         self.boton = False
         self.cerrar_ui(ui_number)
         self.gestorsg_proxy.LanzarApp()
@@ -718,6 +719,8 @@ class SpecificWorker(GenericWorker):
             margen = time.time() + self.margen_tarjeta
 
             while self.resp == "" and time.time() < margen:
+                if not self.running:
+                    break
                 QApplication.processEvents()
                 sleep(0.05)
 
@@ -771,6 +774,8 @@ class SpecificWorker(GenericWorker):
         self.terminaHablar()
         margen = time.time() + self.margen_tarjeta
         while self.resp == "" and time.time() < margen:
+            if not self.running:
+                break
             QApplication.processEvents()
             sleep(0.05)
         self.analizar_ronda_vlm()
@@ -787,6 +792,8 @@ class SpecificWorker(GenericWorker):
 
         self.ui.show()
         while self.ui.isVisible() and self.resp == "":
+            if not self.running:
+                break
             QApplication.processEvents()
             sleep(0.05)
         if self.resp == "si":

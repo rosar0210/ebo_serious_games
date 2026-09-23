@@ -687,6 +687,10 @@ class SpecificWorker(GenericWorker):
                     if pregunta not in self.preguntas_usadas
                 ]
 
+            if len(indices_disponibles) == 0:
+                print(f"Todas las preguntas de la dificultad {self.dificultad} de la categoría {self.categoria_texto} se han agotado.")
+                continue
+
 
 
 
